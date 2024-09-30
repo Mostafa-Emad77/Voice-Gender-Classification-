@@ -27,7 +27,11 @@ The pipeline integrates the following tasks:
 
 ## Models Used
 - **Silero VAD**: A pre-trained model for voice activity detection.
-- **Wav2Vec2**: A fine-tuned pre-trained model for gender classification based on speech.
+- **Wav2Vec2**: A fine-tuned pre-trained model for gender classification based on speech.  
+  > The link to the pre-trained model is included in the documentation
+
+## Dataset
+The dataset used for training and testing the gender classification model can be downloaded from [this link](https://drive.google.com/file/d/1HRbWocxwClGy9Fj1MQeugpR4vOaL9ebO/view).
 
 ## Applications
 - **Speech Processing**: Use this pipeline for tasks involving speech detection and speaker identification.
@@ -40,5 +44,4 @@ The pipeline integrates the following tasks:
 - Transformers
 - Torchaudio
 - Noisereduce
-
 
